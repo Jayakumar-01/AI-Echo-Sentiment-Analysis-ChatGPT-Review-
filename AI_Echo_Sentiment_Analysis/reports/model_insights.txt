@@ -1,0 +1,39 @@
+MODEL PERFORMANCE INSIGHTS – SENTIMENT ANALYSIS
+
+1. Overall Model Accuracy  
+The model achieved a good accuracy score, which means it can correctly classify most user reviews into Positive, Neutral, and Negative categories. This indicates that the sentiment prediction system is reliable for real-world feedback analysis.
+
+2. Precision, Recall and F1-Score  
+- Precision shows how many of the predicted sentiments were actually correct.  
+- Recall shows how many of the actual sentiments were successfully identified by the model.  
+- F1-Score balances both precision and recall and gives a strong overall performance measure.  
+
+High F1-scores across sentiment classes indicate the model is stable and consistent in its predictions.
+
+3. Confusion Matrix Interpretation  
+The confusion matrix helps identify:
+- How many reviews were correctly classified  
+- Where misclassifications occurred (e.g., Neutral predicted as Positive)
+
+Most predictions fall along the diagonal, meaning correct classifications dominate.
+
+4. Model Strengths  
+- Successfully handles three-class sentiment (Positive, Neutral, Negative)
+- Combines NLP + Machine Learning
+- Uses TF-IDF which captures important keywords
+- Works well for short and long reviews
+
+5. Model Limitations  
+- Performance depends on dataset size and balance
+- Rare expressions or sarcasm may still confuse the model
+- Accuracy can improve with more training data
+
+6. Business Impact  
+This sentiment model helps:
+- Identify unhappy users quickly  
+- Track satisfaction trends over time  
+- Improve product features based on feedback  
+- Prioritize customer support  
+
+7. Final Conclusion  
+The sentiment analysis model is accurate, interpretable, and suitable for deployment in real-world applications such as review analysis dashboards, automated feedback systems, and customer experience monitoring.
